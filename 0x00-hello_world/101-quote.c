@@ -9,8 +9,8 @@
   */
 int main(void)
 {
-	const char *information;
-	*information = "and that piece of art is useful\" - Dora Korpar, 2015-10-19";
+	const char *information = "and that piece of art"
+		"is useful\" - Dora Korpar, 2015-10-19";
 	write(2, information, strlen(information));
 	return (1);
 }
