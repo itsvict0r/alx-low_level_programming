@@ -8,14 +8,14 @@
 int main(void)
 {
 	int i = 0;
-	char hex = 'A';
+	char hex = 'a';
 
 	while (i < 10)
 	{
 		putchar(i + 48);
 		i++;
 	}
-	while (hex < 'G')
+	while (hex < 'g')
 	{
 		putchar(hex);
 		hex++;
