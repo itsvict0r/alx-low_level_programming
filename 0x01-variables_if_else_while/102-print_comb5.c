@@ -24,7 +24,7 @@ int main(void)
 			putchar(' ');
 			putchar(tens2 + '0');
 			putchar(unit2 + '0');
-			if (a != 99 || b != 99)
+			if (a != 98 || b != 99)
 			{
 				putchar(',');
 				putchar(' ');
