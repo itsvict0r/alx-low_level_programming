@@ -5,11 +5,12 @@
 /* more headers goes there */
 
 /**
-  * main - entry point for program to generate a
+  * positive_or_negative - function to generate a
   * random number and prints if that number
   * is positive, zero, or negative
+  * @i: argument of type int
   *
-  * Return: 0 (sucessful)
+  * Return: void
   */
 void positive_or_negative(int i)
 {
