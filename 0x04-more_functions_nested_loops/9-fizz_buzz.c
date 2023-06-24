@@ -39,13 +39,20 @@ int main(void)
 		{
 			printf("FizzBuzz ");
 		}
-		else if (i == mul5)
+		else if (i == mul3)
 		{
-			printf("Buzz ");
+			printf("Fizz ");
 		}
 		else
 		{
-			printf("Fizz ");
+			if (i != 100)
+			{
+				printf("Buzz ");
+			}
+			else
+			{
+				printf("Buzz");
+			}
 		}
 	}
 	printf("\n");
