@@ -9,13 +9,15 @@
   */
 int _isupper(int c)
 {
+	int a;
+
 	if (c >= 65 && c <= 90)
 	{
-		return (1);
+		a = 1;
 	}
 	if (c >= 97 && c <= 122)
 	{
-		return (0);
+		a = 0;
 	}
-	return (c);
+	return (a);
 }
