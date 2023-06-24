@@ -10,7 +10,7 @@
   *
   * Return: 0
   */
-int main(void)
+void fizz_buzz(void)
 {
 	int i;
 	int mul3;
@@ -56,5 +56,10 @@ int main(void)
 		}
 	}
 	printf("\n");
+}
+
+int main(void)
+{
+	fizz_buzz();
 	return (0);
 }
